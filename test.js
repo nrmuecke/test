@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "uncommon") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -55,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "rare") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -69,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "veryRare") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "legendary") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -97,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "artifact") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -111,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         } else if (dropdownValue === "other") {
             for (var i = 0; i < magicItems.length; i++) {
@@ -125,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var { name, desc } = randomItem;
 
                 document.getElementById("name").textContent = name
+                document.getElementById("rarity").textContent = rarity.toUpperCase();
                 document.getElementById("desc").textContent = desc
         }
     } 
