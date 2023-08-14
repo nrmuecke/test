@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = commonItems[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var randomItem = uncommonItems[randomNumber];
 
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = rareItems[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = veryRareItems[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = legendaryItems[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = artifacts[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var randomItem = otherItems[randomNumber];
 
-                var { name, desc } = randomItem;
+                var { name, desc, rarity } = randomItem;
 
                 document.getElementById("name").textContent = name
                 document.getElementById("rarity").textContent = rarity.toUpperCase();
